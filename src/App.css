@@ -1,5 +1,20 @@
 .App {
-  text-align: center;
+  width: 50%;
+  background: #0af4ff;
+  min-height: 550px;
+  padding: 20px;
+  margin: 31px auto;
+  border-radius: 5px;
+  border: 2px solid #ffffff;
+  box-shadow: 0px 0px 10px #02d6e0;
+}
+.App p {
+  font-size: 22px;
+  background-color: #00b3dc;
+  padding: 15px;
+  border-radius: 2px;
+  color: #FFF;
+  font-weight: bold;
 }
 
 .App-logo {
@@ -27,7 +42,83 @@
 .App-link {
   color: #61dafb;
 }
+.App .AddFrom input[type='text'] {
+  width: 80%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #e8e8e8;
+  background: #e8e8e8;
+  border-radius: 2px 0 0 2px;
+} 
+.App .AddFrom input[type='submit'] {
+  width: 20%;
+  padding: 10px;
+  border: 1px solid #035e73;
+  background: #035e73;
+  border-radius: 0 2px 2px 0;
+  color: #FFF;
+  font-weight: bold;
 
+}.App .UpdateFrom input[type='text'] {
+  width: 75%;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #FFF;
+  background: #FFF;
+  border-radius: 2px 0 0 2px;
+} 
+.App .UpdateFrom button {
+  width: 25%;
+  padding: 20px;
+  border: 1px solid #035e73;
+  background: #035e73;
+  border-radius: 0 2px 2px 0;
+  color: #FFF;
+  font-weight: bold;
+  margin-bottom: 20px;
+
+}
+
+.App ul {
+  padding: 0;
+}
+.App ul li {
+  list-style: none;
+  clear: both;
+  display: block;
+  margin-bottom: 20px;
+  background-color: #FFF;
+  padding: 20px;
+}
+.deletebtn {
+  padding: 10px;
+  border: 1px solid #ff1717;
+  background: #ff1717;
+  border-radius: 0 2px 2px 0;
+  color: #FFF;
+  font-weight: bold;
+
+}.updatebtn {
+  padding: 10px;
+  border: 1px solid #0baf00;
+  background: #0baf00;
+  border-radius: 0 2px 2px 0;
+  color: #FFF;
+  font-weight: bold;
+  margin-right: 20px;
+
+}
+.App ul li button {
+  float: right;
+  margin-top: -8px;
+}
+.warinig {
+  color: red;
+}
+.App bold {
+  font-weight: bold;
+  font-size: 25px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
